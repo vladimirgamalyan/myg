@@ -1,0 +1,27 @@
+{
+  "name": "myg200",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "eleventy --serve",
+	"build": "npx @11ty/eleventy",
+	"_build-ghpages": "npx @11ty/eleventy --pathprefix=/vladimirgamalyan.github.io/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimirgamalyan/myg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vladimirgamalyan/myg/issues"
+  },
+  "homepage": "https://github.com/vladimirgamalyan/myg#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
